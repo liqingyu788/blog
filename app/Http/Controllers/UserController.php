@@ -15,4 +15,9 @@ class UserController extends Controller
     {
         echo 1;die;
     }
+
+    public function help()
+    {
+        return view('user.help');
+    }
 }

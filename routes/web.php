@@ -17,3 +17,5 @@
 
 //todo 用户添加
 Route::get('user/add','UserController@add');
+
+Route::get('help','UserController@help');
